@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Overlock';
+    /* Choose a name for the font */
+    src: url('fonts/Overlock-Regular.ttf') format('woff2');
+    /* Include different formats for better compatibility */
+    font-weight: normal;
+    /* Optional: specify weight */
+    font-style: normal;
+    /* Optional: specify style */
+}
+
+@font-face {
+    font-family: 'InstrumentSans';
+    /* Choose a name for the font */
+    src: url('fonts/InstrumentSans-Regular.ttf') format('woff2');
+    /* Include different formats for better compatibility */
+    font-weight: normal;
+    /* Optional: specify weight */
+    font-style: normal;
+    /* Optional: specify style */
+}
+
+@font-face {
+    font-family: 'Roboto';
+    /* Choose a name for the font */
+    src: url('fonts/Roboto-Regular.ttf') format('woff2');
+    /* Include different formats for better compatibility */
+    font-weight: normal;
+    /* Optional: specify weight */
+    font-style: normal;
+    /* Optional: specify style */
+}
+
+body{
+    font-family: InstrumentSans,Overlock,Roboto,'Arial' !important;
+}
